@@ -60,3 +60,24 @@ github "xquartz",     "1.2.1"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
+
+# Version numbers refer to (exact) tags in the repo
+# for the puppet module
+
+github "java", "1.8.0"
+github "wget"
+
+github "sublime_text"
+github "iterm2"
+github "heroku"
+
+github "chrome"
+github "firefox"
+github "atom"
+github "imageoptim"
+github "postgresql"
+github "gitx"
+
+github "charles", :repo => "newtriks/puppet-charles"
+github "wireshark", :repo => "jplana/puppet-wireshark"
