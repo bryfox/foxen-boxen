@@ -13,8 +13,6 @@ class people::bryfox {
   include chrome
   include firefox
   include postgresql
-  include charles
-  include wireshark
   include gitx::dev
 
   include heroku

@@ -78,6 +78,3 @@ github "atom"
 github "imageoptim"
 github "postgresql"
 github "gitx"
-
-github "charles", :repo => "newtriks/puppet-charles"
-github "wireshark", :repo => "jplana/puppet-wireshark"
