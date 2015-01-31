@@ -3,6 +3,9 @@ class people::bryfox {
 
   notice('Installing custom user modules')
 
+  # npm
+  nodejs::module { 'grunt for 0.10': module => 'grunt', node_version => 'v0.10' }
+
   include java
   include wget
   include iterm2::dev

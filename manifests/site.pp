@@ -89,6 +89,4 @@ node default {
     target => $boxen::config::repodir
   }
 
-  include people::bryfox
-
 }
