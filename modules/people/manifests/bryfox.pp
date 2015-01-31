@@ -12,7 +12,6 @@ class people::bryfox {
   include atom
   include chrome
   include firefox
-  include postgresql
   include gitx::dev
 
   include heroku
