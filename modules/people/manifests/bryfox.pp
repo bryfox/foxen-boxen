@@ -21,16 +21,7 @@ class people::bryfox {
 
   # Set system global version defaults
   # TODO: Config should be set in hiera
-  class { 'nodejs::global': version => 'v0.10' }
-  class { 'ruby::global': version => '2.1.2' }
-
-  # Symlink to boxen script from Applications dir for
-  # those who like to double-click on things
-  file {
-    '/Applications/boxen':
-      ensure => 'link',
-      target => '/opt/boxen/repo/script/boxen'
-  }
-
+  # class { 'nodejs::global': version => 'v0.10' }
+  # class { 'ruby::global': version => '2.1.2' }
 
 }
